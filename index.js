@@ -1,3 +1,4 @@
+import './server.js'; // Web sunucusunu başlatan kodu içeri aktar
 import { Client, GatewayIntentBits, Partials, PermissionsBitField, ChannelType } from 'discord.js';
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from '@google/generative-ai';
 import { config } from 'dotenv';
